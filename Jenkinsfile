@@ -2,8 +2,8 @@ pipeline {
  stages{
    stage('Check Version'){
      steps {
-       sh "node --version"
-       sh "npm --version"
+       sh "ls"
+       echo "hello frm jenkins"
      }
    }
 
