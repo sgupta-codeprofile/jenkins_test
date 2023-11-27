@@ -1,5 +1,5 @@
 pipeline {
- agent {label 'agentlinux'}
+ agent {label 'macnode'}
  stages{
    stage('Check Version'){
      steps {
