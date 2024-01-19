@@ -4,6 +4,7 @@ pipeline {
    stage('Check Version'){
      steps {
        sh "ls"
+       sh "pwd"
        echo "hello frm jenkins"
      }
    }
